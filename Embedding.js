@@ -24,7 +24,7 @@ const output = await hf.featureExtraction({
 
 const output2 = await hf.featureExtraction({
     model: "sentence-transformers/all-MiniLM-L6-v2",
-    inputs: "a rollercoaster is a cool thing to do",
+    inputs: "That is a happy person",
 });
 
 const similarity  = dotProduct(output,output2);

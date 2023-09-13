@@ -17,7 +17,10 @@ let extractor = await pipeline(
 
 let output = await extractor(
     'This is a simple test.',
-     { pooling: 'mean', normalize: true });
+     { 
+        pooling: 'mean',  //cada token tiene su embedding le sacamos la media a todos y generamos un embedding por la oracion
+        normalize: true //convert em to unit vector 
+     });
 // Tensor {
 //   type: 'float32',
 //   data: Float32Array [0.09094982594251633, -0.014774246141314507, ...],
