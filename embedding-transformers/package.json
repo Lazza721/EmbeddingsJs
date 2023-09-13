@@ -1,0 +1,22 @@
+{
+  "name": "embedding-transformers",
+  "version": "1.0.0",
+  "description": "sub folder using transformers js",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transformers",
+    "javascript",
+    "machine",
+    "learning",
+    "NLP"
+  ],
+  "author": "Victor Hugo García Lazzarini",
+  "license": "ISC",
+  "dependencies": {
+    "@xenova/transformers": "^2.6.0"
+  }
+}

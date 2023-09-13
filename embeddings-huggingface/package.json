@@ -1,0 +1,16 @@
+{
+  "name": "embeddings-huggingface",
+  "version": "1.0.0",
+  "description": "subfile on embeddings folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "embeddings",
+    "transformers",
+    "huggingface"
+  ],
+  "author": "Victor Hugo García Lazzarini",
+  "license": "ISC"
+}

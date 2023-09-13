@@ -1,0 +1,29 @@
+{
+  "name": "embeddingsjavascript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Embedding model in javascript/typescript",
+  "main": "Embedding.js",
+  "scripts": {
+    "start": "node Embedding.js",
+    "dev": "nodemon Embedding.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "emebddings",
+    "machinelearning"
+  ],
+  "author": "Victor Hugo García Lazzarini",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/inference": "^2.6.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
